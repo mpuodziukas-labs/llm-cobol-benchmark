@@ -15,7 +15,6 @@ Validates:
 """
 from __future__ import annotations
 
-import io
 import sys
 from pathlib import Path
 
@@ -24,9 +23,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from benchmark.llm_comparison import (
     BENCHMARK_RESULTS,
     TOTAL_SNIPPETS,
-    LLMResult,
     compute_aggregate_broken_rate,
-    compute_redefines_broken_rate,
     print_comparison_table,
     rank_models,
 )

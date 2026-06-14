@@ -25,7 +25,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from benchmark.migration_scorer import MigrationScore, MigrationScorer, RiskCategory, score_migration_risk
+from benchmark.migration_scorer import MigrationScorer, score_migration_risk
 
 # ── Fixtures ───────────────────────────────────────────────────────────────────
 
