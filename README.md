@@ -313,6 +313,14 @@ Tests run on Python 3.10, 3.11, and 3.12 on every push.
 
 ---
 
+## Limitations
+
+- The LLM "fix" outputs in `llm_outputs/` are synthetic examples constructed to represent documented failure modes, not captured from a specific live prompt run.
+- Detectors are static and rule-based: they catch the enumerated patterns, not novel or obfuscated COBOL defects.
+- This is a demonstration benchmark, not a certified compliance or audit product.
+
+---
+
 ## License
 
 MIT
